@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+ }
+ body {
+    margin: 0; 
+    padding: 0;
+
+ }
+ li{
+    list-style: none;
+    padding-right: 13px;
+ }
+ .left{
+    float: left;
+ }
+ 
+.right{
+    float: right;
+    margin-top: 32px;
+    color:#8E8E8E;
+   
+}
+.ul_li {
+    list-style: none;
+    
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+ }
+
+
+
+ .container { 
+    width: 1200px;
+    margin: 0 auto;
+   }
+
+    
+ .verhnee_menu {
+    display: inline-block;    
+   width: 100%;  
+
+}  
+
+li.phone {
+   padding-left: 113px;
+}
+
+.txt{
+  font-weight: 600;
+   font-size: 12px;
+   font: Open Sans;
+
+}
+.clr{
+  color: #2e5587;  
+}
+.zkzzvon{
+   color: #63AC2B;
+   font-size: 15px;
+   font-weight: 500;
+   line-height: 20%;
+  
+
+}
+.email{
+   font-size: 16px;
+   font-weight: 400;
+}
+li.zkzzvon {
+   border-right: 1px solid #C8C8C8;
+   
+   margin-right: 10px;
+   margin-left: 10px;
+}
+li.user_b {
+   border-right: 1px solid #C8C8C8;
+   margin-right: 14px;
+ 
+}
+.msg {
+   text-align: center;
+   position: absolute;
+   top: -9px;
+   right: -5px;
+   background: #6BB333;
+   width: 13px;
+   height: 13px;
+   color: white;
+   font-size: 9px;
+   line-height: 1.5;
+   border-radius: 13px;
+}
+.icon_msg {
+   position: relative; 
+}
+
+.search{
+   display: flex;
+   background:#8E8E8E;
+   height: 29px;
+   border-radius: 47px;
+   padding: 2px;
+}
+
+
+input{
+   border: none;
+   background:none;
+   outline: none;
+   padding: 0;
+   font-size: 14px;
+   color:#fff;
+   
+   width: 0;
+   transition: .4s;
+}
+button{
+   color:  #8E8E8E;
+   width: 25px;
+   height: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   border: none;
+   background-color: white;
+   font-size: 16px;
+   cursor: pointer;
+   transition: .4s;
+}
+button>i{
+   font-size: 14px;
+}
+.search:hover > input{
+   width: 150px;
+   padding: 0 6px;
+}
+
+
+
+.nijnee_menu{
+   background:#EAEDF0;
+   display: inline-block;
+   width: 100%;
+   height: 55px;
+   top:77px; 
+   padding-top: 14px;
+   
+   
+}
+
+.nijnee_menu .ul_li {
+   display: flex;
+   justify-content: space-between;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 23px;
+
+}
+.bnnr{
+   width: 87%;
+   display: inline-block;
+}
+
+#banner{
+   width: 1440px;
+   height: 492px;
+   display: inline-block;
+}
+
+
+
