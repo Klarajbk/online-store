@@ -412,11 +412,10 @@ margin: -36px 0px 0px 65px;
    margin-left: 16px;
 
 }
-.news
-.paper
-{
+.news {
    margin-bottom: 100px;
 }
+
 
 .zayavka_banner {
    position: relative;
@@ -520,3 +519,26 @@ margin: -36px 0px 0px 65px;
    bottom: -8.59%;
    box-sizing: border-box;
 }
+.paper {
+   margin-bottom: 230px;
+
+}
+.s_video{
+
+ 
+   margin-top: 99px; 
+   width: 100%;
+   height: 500px;
+
+}
+
+.space_video {
+   margin-top: -6px;
+   margin-left: 0px;
+   text-align: left;
+   height: 130px;
+   padding: 33px;
+   background: #FFFFFF;
+   border: 1px solid #DADADA;
+}
+
