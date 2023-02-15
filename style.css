@@ -14,7 +14,7 @@ ___________________________________*/
  __________________________________ */
  li{
     list-style: none;
-    padding-right: 13px;
+    /*padding-right: 13px;*/
  }
  .left{
     float: left;
@@ -317,7 +317,9 @@ margin: -36px 0px 0px 65px;
    margin-top: 126px;
 }
 
-.all_img {
+.all_img
+.recomm
+{
    position: relative;
 }
 .p_txt {
@@ -341,7 +343,7 @@ margin: -36px 0px 0px 65px;
    display: inline-block;
    margin-top: 99px; 
    width: 100%;
-   height: 780px;
+   height: 711px;
    
    
 }
@@ -401,16 +403,18 @@ margin: -36px 0px 0px 65px;
 .stock {
    background: #DFE6EF;
    
-display: inline-block;
-margin-top: 99px; 
-width: 100%;
-height: 500px;
+   display: inline-block;
+   margin-top: 99px; 
+   width: 100%;
+   height: 500px;
 }
 .stock_text {
    margin-left: 16px;
 
 }
-.news{
+.news
+.paper
+{
    margin-bottom: 100px;
 }
 
@@ -450,4 +454,69 @@ height: 500px;
    height: 491px;
    box-shadow: 0px 0px 23px rgba(44, 39, 75, 0.63);
    top: 53px;
+}
+
+.novosti {
+   margin-top: -34px;
+}
+
+.text_2col {
+   margin-left: -40px;
+   margin-top: 97px;
+   margin-bottom: 97px;
+   margin-right: -12px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: #383A3C;
+
+}
+.recomm {
+   position: absolute;
+   margin-left: 75px;
+}
+.rec_txt1 {
+   position: absolute;
+   padding-top: 61px;
+   font-weight: 400;
+   font-size: 23px;
+   line-height: 32px;
+   color: #383A3C;
+   margin-left: 75px;
+   margin-top: 100px;
+}
+
+
+.rec_txt2 {
+   position: absolute;
+   width: 742px;
+   height: 187px;
+   margin-left: 75px;
+   padding: 45px 45px;
+   margin-top: 300px;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   background: rgba(255, 255, 255, 0.67);
+}
+
+.space_paper {
+   margin-top: -6px;
+   text-align: left;
+   height: 270px;
+   padding: 28px 28px 0px 28px;
+
+}
+
+.paper_button {
+   
+   background: #DFE6EF;
+   transform: matrix(1, 0, 0, -1, 0, 0);
+   padding-left: 0px;
+   right: 0%;
+   top: 100%;
+   bottom: -8.59%;
+   box-sizing: border-box;
 }
