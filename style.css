@@ -38,7 +38,7 @@ ___________________________________*/
 
 
  .container { 
-    width: 1200px;
+    width: 1170px;
     margin: 0 auto;
    }
 
@@ -79,6 +79,7 @@ li.phone {
    margin-right: 15px;
    margin-left: 10px; 
    border-right: 1px solid #C8C8C8;
+   padding-right: 22px;
 
 }
 .email{
@@ -89,6 +90,7 @@ li.phone {
 li.user_b {
    border-right: 1px solid #C8C8C8;
    margin-right: 14px;
+   padding-right: 22px;
  
 }
 .msg {
@@ -106,6 +108,7 @@ li.user_b {
 }
 .icon_msg {
    position: relative; 
+  
 }
 
 .search{
@@ -398,7 +401,7 @@ margin: -36px 0px 0px 65px;
 .space_news {
    margin-top: 19px;
    text-align: left;
-   height: 135px;
+   height: 150px;
    padding: 28px;
 }
 .stock {
@@ -543,3 +546,23 @@ margin: -36px 0px 0px 65px;
    border: 1px solid #DADADA;
 }
 
+
+.brand_border {
+   
+   border: 1px solid #DADADA;
+    
+   width: 195px;
+   height: 195px;
+   
+}
+
+.b_img {
+   padding: 39px;
+}
+
+.brand {
+   margin-left: -41px;
+}
+.brand_s{
+   margin-top: 210px;
+}
