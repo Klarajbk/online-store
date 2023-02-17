@@ -223,7 +223,7 @@ ___________________________________*/
    padding-left: 15px;
 }
 .txt2 {
-   padding: 37px;
+   padding-left: 37px;
 }
 
 .b_krug {
@@ -386,7 +386,7 @@ margin: -36px 0px 0px 65px;
 .space_hit {
    text-align: left;
    margin-top: 21px;
-   height: 135px;
+   height: 150px;
    padding: 28px;
 }
 .text2img {
